@@ -25,8 +25,14 @@ cd fastify-ssr
 ```
 
 Install it and run:
+ Windows: need to add escape characters to line in package.json
+ ```"watch:server": "nodemon --watch src --ignore src/client --exec \"npm run build:server && npm run start | pino-pretty\""```
 
 ```bash
 npm install
 npm run watch
 ```
+
+View in browser:
+
+[http://localhost:3000/](http://localhost:3000/)
